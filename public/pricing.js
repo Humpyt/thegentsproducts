@@ -11,7 +11,7 @@
   const header = document.querySelector('header');
   const explanation = document.createElement('p');
   explanation.className = 'pricing-explanation';
-  explanation.textContent = 'Enter product prices in UGX. Saved prices are shared with everyone using this link. Leave a price blank and save to clear it.';
+  explanation.textContent = 'Enter product prices in UGX. Each saved price goes to The Gents Google Sheet and is shared with everyone using this link. Leave a price blank and save to clear it.';
   header.append(explanation);
   const toolbar = document.createElement('div');
   toolbar.className = 'pricing-toolbar';
@@ -57,7 +57,7 @@
       for (const id of state.rows.keys()) display(id);
       updateCount();
       exportButton.disabled = false;
-      status.textContent = 'Shared prices connected. Save each entry when it is ready.';
+      status.textContent = 'Google Sheet connected. Save each entry when it is ready.';
     } catch (error) {
       status.textContent = `${error.message} Unsaved entries remain in the fields.`;
     } finally { state.refreshing = false; refreshButton.disabled = false; }

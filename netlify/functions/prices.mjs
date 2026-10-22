@@ -1,4 +1,4 @@
-import { getStore } from '@netlify/blobs';
 import { createPriceHandler } from '../lib/price-handler.mjs';
+import { createSheetsStore } from '../lib/sheets-store.mjs';
 
-export default createPriceHandler(() => getStore({ name: 'the-gents-product-prices-v1', consistency: 'strong' }));
+export default createPriceHandler(() => createSheetsStore());
