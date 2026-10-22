@@ -1,0 +1,17 @@
+.pricing-toolbar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:20px}
+.pricing-toolbar button{font:inherit;cursor:pointer;padding:10px 15px;border:1px solid #c5d1c9;border-radius:4px;background:#fff;color:#203630}
+.pricing-toolbar button:disabled{opacity:.6;cursor:wait}
+.pricing-explanation{font-size:14px}
+#pricing-status{font-size:13px;color:#e0e9df;flex-basis:100%;margin:0}
+#priced-count{font-size:13px;color:#e0e9df}
+.price-form{margin:18px 0;padding:16px 0;border-top:1px solid #e4e6df;border-bottom:1px solid #e4e6df}
+.price-form label{display:block;font-size:13px;font-weight:bold;margin-bottom:8px}
+.price-controls{display:flex;gap:8px;align-items:stretch}
+.price-controls input{width:100%;min-width:0;padding:10px;border:1px solid #a8b5a9}
+.price-controls button{flex-shrink:0;background:#203630;border:0;border-radius:4px;color:white;padding:10px 12px;font:inherit;cursor:pointer}
+.price-controls button:disabled{opacity:.55;cursor:wait}
+.price-controls input:focus{outline:2px solid #927b49;outline-offset:2px}
+.price-status{min-height:20px;font-size:12px;margin:8px 0 0;color:#637064}
+.price-status[data-state="error"]{color:#9b2b24}
+.price-status[data-state="dirty"]{color:#806326}
+@media(max-width:390px){.price-controls{flex-wrap:wrap}.price-controls button{width:100%}}

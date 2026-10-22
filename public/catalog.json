@@ -1,0 +1,607 @@
+{
+  "products": [
+    {
+      "id": "TG02-001",
+      "title": "Charcoal fine-pattern suit",
+      "category": "Suit",
+      "brand": "FINESSE",
+      "code": "97474",
+      "colorCode": "3/5",
+      "sizes": "58",
+      "material": "88% wool, 8% polyamide, 4% elastane",
+      "design": "Charcoal fine woven suiting with quiet warm vertical hairlines and subtle cross-lines as photographed; peak lapels, two front buttons, flap pockets, small original silver lapel pin. Preserve the pin and exact understated fabric pattern.",
+      "image": "images/TG02-001.png",
+      "preview": "previews/TG02-001.jpg",
+      "sourcePreview": "source-previews/TG02-001.jpg",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-002",
+      "title": "Dark charcoal warm pinstripe suit",
+      "category": "Suit",
+      "brand": "FINESSE",
+      "code": "110501.431",
+      "colorCode": "0601",
+      "sizes": "58",
+      "material": "100% wool 150S",
+      "design": "Peak lapels, narrowly spaced copper-brown pinstripes on dark charcoal, two front buttons.",
+      "image": "images/TG02-002.png",
+      "preview": "previews/TG02-002.jpg",
+      "sourcePreview": "source-previews/TG02-002.jpg",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-003",
+      "title": "Blue subtle stripe suit",
+      "category": "Suit",
+      "brand": "FINESSE",
+      "code": "98475",
+      "colorCode": "4/6",
+      "sizes": "56",
+      "material": "88% wool, 8% polyamide, 4% Lycra 150S",
+      "design": "Peak lapels, muted mid navy blue with very subtle fine stripe and smooth suiting.",
+      "image": "images/TG02-003.png",
+      "preview": "previews/TG02-003.jpg",
+      "sourcePreview": "source-previews/TG02-003.jpg",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-004",
+      "title": "Blue fine weave suit",
+      "category": "Suit",
+      "brand": "FINESSE",
+      "code": "110501.245",
+      "colorCode": "0201",
+      "sizes": "58",
+      "material": "100% wool 150S",
+      "design": "Peak lapels, blue fine textured weave and subtle warm hairline stripes; two button front.",
+      "image": "images/TG02-004.png",
+      "preview": "previews/TG02-004.jpg",
+      "sourcePreview": "source-previews/TG02-004.jpg",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-005",
+      "title": "Navy pinstripe suit",
+      "category": "Suit",
+      "brand": "ZECCA",
+      "code": "0118010079",
+      "colorCode": "STRIPED NAVY",
+      "sizes": "56",
+      "material": "Not shown",
+      "design": "Notched lapels, blue-black navy with evenly spaced light pinstripes.",
+      "image": "images/TG02-005.png",
+      "preview": "previews/TG02-005.jpg",
+      "sourcePreview": "source-previews/TG02-005.jpg",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-006",
+      "title": "Dark gray pinstripe suit",
+      "category": "Suit",
+      "brand": "ZECCA",
+      "code": "0118010079",
+      "colorCode": "STRIPED D.GREY",
+      "sizes": "54",
+      "material": "Not shown",
+      "design": "Notched lapels, dark gray with evenly spaced pale pinstripes. Hanger says Zeller but attached product tag identifies ZECCA.",
+      "image": "images/TG02-006.png",
+      "preview": "previews/TG02-006.jpg",
+      "sourcePreview": "source-previews/TG02-006.jpg",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-007",
+      "title": "Light blue fine stripe suit",
+      "category": "Suit",
+      "brand": "FINESSE",
+      "code": "110501.420",
+      "colorCode": "0301",
+      "sizes": "50",
+      "material": "100% wool 150S",
+      "design": "Peak lapels, light steel blue fabric with very fine warm hairline stripes. Preserve white shirt and small geometric yellow tie styling. Retain the small original silver lapel pin.",
+      "image": "images/TG02-007.png",
+      "preview": "previews/TG02-007.jpg",
+      "sourcePreview": "source-previews/TG02-007.jpg",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-008",
+      "title": "Charcoal narrow pinstripe suit",
+      "category": "Suit",
+      "brand": "ever.he",
+      "code": "216218M; 3007360-F-4",
+      "colorCode": "009",
+      "sizes": "54",
+      "material": "96% wool, 4% Lycra",
+      "design": "Notched lapels, dark charcoal subtle vertical stripe, four black cuff buttons.",
+      "image": "images/TG02-008.png",
+      "preview": "previews/TG02-008.jpg",
+      "sourcePreview": "source-previews/TG02-008.jpg",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-009",
+      "title": "Navy textured wool suit",
+      "category": "Suit",
+      "brand": "ever.he",
+      "code": "216464M; 415 0302",
+      "colorCode": "008",
+      "sizes": "58",
+      "material": "100% wool",
+      "design": "Notched lapels, navy finely textured weave without adding pinstripes.",
+      "image": "images/TG02-009.png",
+      "preview": "previews/TG02-009.jpg",
+      "sourcePreview": "source-previews/TG02-009.jpg",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-010",
+      "title": "Gray fine stripe suit",
+      "category": "Suit",
+      "brand": "ever.he",
+      "code": "31/A; 46244-3/3",
+      "colorCode": "13",
+      "sizes": "54",
+      "material": "96% wool, 4% Lycra",
+      "design": "Notched lapels, charcoal gray fine woven cloth and pale thin pinstripes.",
+      "image": "images/TG02-010.png",
+      "preview": "previews/TG02-010.jpg",
+      "sourcePreview": "source-previews/TG02-010.jpg",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-011",
+      "title": "Dark plain stretch wool suit",
+      "category": "Suit",
+      "brand": "ever.he",
+      "code": "36/A; 85429-0501",
+      "colorCode": "07",
+      "sizes": "56",
+      "material": "96% wool, 4% Lycra",
+      "design": "Notched lapels, deep charcoal plain smooth fabric, breast welt and flap hip pockets.",
+      "image": "images/TG02-011.png",
+      "preview": "previews/TG02-011.jpg",
+      "sourcePreview": "source-previews/TG02-011.jpg",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-012",
+      "title": "Gray microtexture suit",
+      "category": "Suit",
+      "brand": "ever.he",
+      "code": "234A; 65679-1/4",
+      "colorCode": "025",
+      "sizes": "50",
+      "material": "96% wool, 4% Lycra",
+      "design": "Peak lapels, warm mid-gray densely woven microtexture, two-button front, flap pockets.",
+      "image": "images/TG02-012.png",
+      "preview": "previews/TG02-012.jpg",
+      "sourcePreview": "source-previews/TG02-012.jpg",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-013",
+      "title": "Dark navy dotted pinstripe suit",
+      "category": "Suit",
+      "brand": "ever.he",
+      "code": "31/A; 84161-7/6",
+      "colorCode": "01",
+      "sizes": "50",
+      "material": "96% wool, 4% Lycra",
+      "design": "Notched lapels, dark navy cloth with fine dotted pale pinstripes, four cuff buttons.",
+      "image": "images/TG02-013.png",
+      "preview": "previews/TG02-013.jpg",
+      "sourcePreview": "source-previews/TG02-013.jpg",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-014",
+      "title": "Charcoal pinstripe wool trousers",
+      "category": "Trousers",
+      "brand": "GABRIEL MOON",
+      "code": "K 245; blend P5-0",
+      "colorCode": "",
+      "sizes": "42",
+      "material": "100% wool",
+      "design": "Dark charcoal fine pale vertical pinstripes, single buttoned horizontal welt back pocket, belt loops. Classic dress cut.",
+      "image": "images/TG02-014.png",
+      "preview": "previews/TG02-014.jpg",
+      "sourcePreview": "source-previews/TG02-014.jpg",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-015",
+      "title": "Nirvana dark wool trousers",
+      "category": "Trousers",
+      "brand": "BARUTTI / MARIO BARUTTI",
+      "code": "NIRVANA; P.704",
+      "colorCode": "198-857",
+      "sizes": "52, 56",
+      "material": "100% wool 180S",
+      "design": "Deep charcoal near-black smooth wool, rear horizontal welt pockets with small dark button, belt loops, classic dress cut.",
+      "image": "images/TG02-015.png",
+      "preview": "previews/TG02-015.jpg",
+      "sourcePreview": "source-previews/TG02-015.jpg",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-016",
+      "title": "Blue gray classic trousers",
+      "category": "Trousers",
+      "brand": "Kiğılı",
+      "code": "KY223T901D003; order 18362",
+      "colorCode": "430",
+      "sizes": "56",
+      "material": "Wool / polyester / elastane; printed percentages appear 44 / 63 / 3 and require confirmation",
+      "design": "Muted blue-gray fine woven dress trousers, classic Roma cut, buttoned welt back pocket and belt loops.",
+      "image": "images/TG02-016.png",
+      "preview": "previews/TG02-016.jpg",
+      "sourcePreview": "source-previews/TG02-016.jpg",
+      "notes": "Label percentages appear to total 110%. Verify before publishing composition.",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-017",
+      "title": "Dark blue classic trousers",
+      "category": "Trousers",
+      "brand": "Kiğılı",
+      "code": "KY223T90DZ001; order 20327",
+      "colorCode": "620",
+      "sizes": "58",
+      "material": "Wool / polyester / elastane; printed percentages appear 43 / 63 / 4 and require confirmation",
+      "design": "Deep blue/navy smooth finely woven trousers, classic Roma cut, horizontal buttoned rear welt pocket and belt loops.",
+      "image": "images/TG02-017.png",
+      "preview": "previews/TG02-017.jpg",
+      "sourcePreview": "source-previews/TG02-017.jpg",
+      "notes": "Label percentages appear to total 110%. Verify before publishing composition.",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-018",
+      "title": "Charcoal regular fit trousers",
+      "category": "Trousers",
+      "brand": "PARKEN",
+      "code": "51220; 22121-3; top 4820",
+      "colorCode": "",
+      "sizes": "54",
+      "material": "Not shown",
+      "design": "Charcoal gray fine plain weave, regular cut, dark button on horizontal rear welt pocket.",
+      "image": "images/TG02-018.png",
+      "preview": "previews/TG02-018.jpg",
+      "sourcePreview": "source-previews/TG02-018.jpg",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-019",
+      "title": "Gray textured trousers",
+      "category": "Trousers",
+      "brand": "PARKEN",
+      "code": "51220; 22120-1; top 3849",
+      "colorCode": "",
+      "sizes": "54",
+      "material": "Not shown",
+      "design": "Medium gray fine birdseye-like microtexture; buttoned horizontal rear welt pocket and belt loops.",
+      "image": "images/TG02-019.png",
+      "preview": "previews/TG02-019.jpg",
+      "sourcePreview": "source-previews/TG02-019.jpg",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-020",
+      "title": "Tan suede-look wingtip brogue",
+      "category": "Shoes",
+      "brand": "Not visible",
+      "code": "",
+      "colorCode": "",
+      "sizes": "Not shown",
+      "material": "Composition not verified",
+      "design": "Tan suede-nap wingtip brogue, perforated wingtip seams and toe medallion, open lacing with tan round laces, rear pull tab, contrast cream welt stitching, layered dark brown welt, dark sole and low stacked heel. Preserve the single photographed shoe's exact shape.",
+      "image": "images/TG02-020.png",
+      "preview": "previews/TG02-020.jpg",
+      "sourcePreview": "source-previews/TG02-020.jpg",
+      "notes": "",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-021",
+      "title": "Dark gray stretch wool trousers",
+      "category": "Trousers",
+      "brand": "FINESSE",
+      "code": "PETRO POWER",
+      "colorCode": "9003",
+      "sizes": "42/48",
+      "material": "88% wool, 8% polyamide, 4% EA 150S",
+      "design": "Cool mid-gray fine wool trousers with unusual asymmetric back pockets: one small buttoned pointed tab/flap pocket and one buttoned horizontal welt pocket. Preserve metal side adjuster tab, seam geometry and absence of invented belt loops.",
+      "image": "images/TG02-021.png",
+      "preview": "previews/TG02-021.jpg",
+      "sourcePreview": "source-previews/TG02-021.jpg",
+      "notes": "",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-022",
+      "title": "Dark gray wool trousers",
+      "category": "Trousers",
+      "brand": "ZELLER",
+      "code": "26905; 389-04; Z301",
+      "colorCode": "Obscured",
+      "sizes": "42",
+      "material": "100% wool 170S",
+      "design": "Dark gray smooth fine wool, buttoned horizontal rear welt pocket and belt loops.",
+      "image": "images/TG02-022.png",
+      "preview": "previews/TG02-022.jpg",
+      "sourcePreview": "source-previews/TG02-022.jpg",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-023",
+      "title": "Medium gray wool trousers",
+      "category": "Trousers",
+      "brand": "ZELLER",
+      "code": "25937; 387-05 (handwritten alteration); Z301",
+      "colorCode": "Obscured",
+      "sizes": "42",
+      "material": "100% wool 170S",
+      "design": "Medium gray finely woven wool with subtle mottling, buttoned rear welt pocket and belt loops.",
+      "image": "images/TG02-023.png",
+      "preview": "previews/TG02-023.jpg",
+      "sourcePreview": "source-previews/TG02-023.jpg",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-024",
+      "title": "Blue gray wool trousers",
+      "category": "Trousers",
+      "brand": "ZELLER",
+      "code": "26905; 389-18; Z301",
+      "colorCode": "Obscured",
+      "sizes": "42",
+      "material": "100% wool 170S",
+      "design": "Dark blue-gray smooth fine wool, buttoned horizontal rear welt pocket and belt loops.",
+      "image": "images/TG02-024.png",
+      "preview": "previews/TG02-024.jpg",
+      "sourcePreview": "source-previews/TG02-024.jpg",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-025",
+      "title": "Brown corduroy slim trousers",
+      "category": "Trousers",
+      "brand": "BALLIANI",
+      "code": "MAS 149 COLOUR 01",
+      "colorCode": "BROWN BLUE CORDUROY",
+      "sizes": "42",
+      "material": "Not shown",
+      "design": "Rich brown narrow-wale corduroy, jeans-style patch back pockets, natural cotton-like nap, slim cut.",
+      "image": "images/TG02-025.png",
+      "preview": "previews/TG02-025.jpg",
+      "sourcePreview": "source-previews/TG02-025.jpg",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-026",
+      "title": "Mid gray corduroy modern fit trousers",
+      "category": "Trousers",
+      "brand": "ECER (button marking)",
+      "code": "26536520-05; EM31; fabric 303",
+      "colorCode": "ORTA GRI",
+      "sizes": "42",
+      "material": "69% cotton, 13% modal, 16% polyamide, 2% elastane",
+      "design": "Medium gray narrow-wale corduroy with fine vertical ribs, modern cut, buttoned rear welt pocket, brown button and belt loops.",
+      "image": "images/TG02-026.png",
+      "preview": "previews/TG02-026.jpg",
+      "sourcePreview": "source-previews/TG02-026.jpg",
+      "notes": "",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-027",
+      "title": "Smoke gray stretch chinos",
+      "category": "Trousers",
+      "brand": "ECER",
+      "code": "21700420-06; EJ3; fabric 261",
+      "colorCode": "FUME",
+      "sizes": "32",
+      "material": "97% cotton, 3% elastane",
+      "design": "Smoke gray washed cotton twill chinos, jeans-style patch back pockets and tonal topstitching, modern cut.",
+      "image": "images/TG02-027.png",
+      "preview": "previews/TG02-027.jpg",
+      "sourcePreview": "source-previews/TG02-027.jpg",
+      "notes": "Brand readable on hangtag in product view; care label lacks the brand.",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-028",
+      "title": "Navy Tencel blend slim trousers",
+      "category": "Trousers",
+      "brand": "ECER",
+      "code": "24286410-02; ES38; fabric 65",
+      "colorCode": "LACIVERT",
+      "sizes": "46",
+      "material": "56% Tencel, 41% cotton, 3% elastane",
+      "design": "Navy soft washed fine twill, slim cut, horizontal rear welt pockets with brown buttons, belt loops and paired brown side-waist adjustment buttons visible in reference.",
+      "image": "images/TG02-028.png",
+      "preview": "previews/TG02-028.jpg",
+      "sourcePreview": "source-previews/TG02-028.jpg",
+      "notes": "",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-029",
+      "title": "Dark navy slim chinos",
+      "category": "Trousers",
+      "brand": "BALLIANI",
+      "code": "MAS 42 COLOUR 01",
+      "colorCode": "DARK NAVY",
+      "sizes": "46",
+      "material": "Not shown",
+      "design": "Dark navy cotton-like fine twill, jeans-style patch back pockets with tonal double topstitching, slim cut.",
+      "image": "images/TG02-029.png",
+      "preview": "previews/TG02-029.jpg",
+      "sourcePreview": "source-previews/TG02-029.jpg",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-030",
+      "title": "Sand slim chinos",
+      "category": "Trousers",
+      "brand": "BALLIANI",
+      "code": "MAS 98 COLOUR 04",
+      "colorCode": "SAND",
+      "sizes": "42",
+      "material": "Not shown",
+      "design": "Light sand beige washed twill, jeans-style patch back pockets, tonal stitching, slim cut.",
+      "image": "images/TG02-030.png",
+      "preview": "previews/TG02-030.jpg",
+      "sourcePreview": "source-previews/TG02-030.jpg",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-031",
+      "title": "Stone stretch chinos",
+      "category": "Trousers",
+      "brand": "ALTINYILDIZ CLASSICS",
+      "code": "4A14000000002",
+      "colorCode": "TAS",
+      "sizes": "46",
+      "material": "97% cotton, 3% elastane",
+      "design": "Stone very light gray/beige fine washed cotton twill, jeans-style patch back pockets with distinctive double curved tonal decorative stitching across pocket. Preserve that exact pocket stitching.",
+      "image": "images/TG02-031.png",
+      "preview": "previews/TG02-031.jpg",
+      "sourcePreview": "source-previews/TG02-031.jpg",
+      "notes": "",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-032",
+      "title": "Black five-pocket trousers",
+      "category": "Trousers",
+      "brand": "BALLIANI",
+      "code": "MAS 46 COLOUR 01",
+      "colorCode": "BLACK",
+      "sizes": "52, 44",
+      "material": "Not shown",
+      "design": "Black fine twill five-pocket trousers, jeans-style rear patch pockets, tonal topstitching, straight to slim silhouette.",
+      "image": "images/TG02-032.png",
+      "preview": "previews/TG02-032.jpg",
+      "sourcePreview": "source-previews/TG02-032.jpg",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    },
+    {
+      "id": "TG02-033",
+      "title": "Charcoal textured comfort-waist trousers",
+      "category": "Trousers",
+      "brand": "Not visible",
+      "code": "",
+      "colorCode": "",
+      "sizes": "Not shown",
+      "material": "Not shown",
+      "design": "Charcoal with subtle green undertone and fine diagonal textured weave, gathered elastic section at back waistband, plain unbuttoned horizontal welt back pocket. Preserve waistband and pocket construction. No invented drawstring.",
+      "image": "images/TG02-033.png",
+      "preview": "previews/TG02-033.jpg",
+      "sourcePreview": "source-previews/TG02-033.jpg",
+      "notes": "",
+      "imageDimensions": [
+        3278,
+        4096
+      ]
+    }
+  ]
+}
