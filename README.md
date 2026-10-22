@@ -8,7 +8,11 @@ Each card has a price field and **Save price** button. A blank saved field clear
 
 The Netlify Function at `/.netlify/functions/prices` reads and writes the Google Sheet configured by `GOOGLE_SHEET_ID`. The `Product prices` tab shows all 33 products and their latest prices; `Price entries` keeps the submission history. `CLEARED` records an intentional blank price. Save is confirmed only after the entry can be read back from Google Sheets. Prices survive redeployments.
 
-A dedicated service account has editor access to this sheet and no project-wide IAM role. Its JSON key is stored in the Netlify Functions environment variable `GOOGLE_SERVICE_ACCOUNT_JSON`. No credentials are committed or sent to visitors. Changing these environment variables requires a redeployment. The sheet remains private to its owner and the service account; visitors submit through the website.
+A dedicated service account has editor access to this sheet and no project-wide IAM role. Its JSON key is stored in the Netlify environment variable `GOOGLE_SERVICE_ACCOUNT_JSON`. No credentials are committed or sent to visitors. Changing these environment variables requires a redeployment. The sheet remains private to its owner and the service account; visitors submit through the website.
+
+Live catalog: https://thegentsproducts.netlify.app
+
+Price sheet (owner access): https://docs.google.com/spreadsheets/d/1p5lEqS_LJg9YHGfttTYtstbPuub_Q7WNd9_ig6SpfXg/edit
 
 Each journal entry includes its previous revision. In append order, only the first child of each revision is accepted. Stale edits receive a conflict response, including when viewers submit simultaneously. The overview formulas mirror this rule. Keep the journal in its original order and do not delete or edit journal rows; submit corrections using the website. The viewer interface is intentionally editable by visitors, as requested; it is not an authenticated store administration panel.
 

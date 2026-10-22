@@ -37,7 +37,7 @@ export function foldJournal(rows) {
 }
 
 // This formula makes the same accepted/conflict decision visible in the sheet.
-export const acceptedFormula = '=IF(INDEX(F:F,ROW())=IFERROR(LOOKUP(2,1/((INDIRECT("B1:B"&(ROW()-1))=INDEX(B:B,ROW()))*(INDIRECT("G1:G"&(ROW()-1))="ACCEPTED")),INDIRECT("E1:E"&(ROW()-1))),""),"ACCEPTED","CONFLICT")';
+export const acceptedFormula = '=ARRAYFORMULA(IF(INDEX(F:F,ROW())=IFERROR(LOOKUP(2,1/((INDIRECT("B1:B"&(ROW()-1))=INDEX(B:B,ROW()))*(INDIRECT("G1:G"&(ROW()-1))="ACCEPTED")),INDIRECT("E1:E"&(ROW()-1))),""),"ACCEPTED","CONFLICT"))';
 
 export function createJournalStore(readRows, appendRow) {
   let snapshot;
