@@ -8,6 +8,7 @@
   const writeLocal = (key, value) => { try { localStorage.setItem(key, JSON.stringify(value)); } catch { /* Shared saving still works without local storage. */ } };
   const state = { entries: readLocal(storageKey), drafts: readLocal(draftKey), rows: new Map(), loaded: false, refreshing: false };
   let products = [];
+  window.addEventListener('catalog:updated', event => { products = event.detail.products; });
   const header = document.querySelector('header');
   const explanation = document.createElement('p');
   explanation.className = 'pricing-explanation';
@@ -117,7 +118,10 @@
     try {
       const { response, data } = await request();
       if (!response.ok) throw new Error(data.error || 'Cannot export prices.');
-      const rows = [['Product ID', 'Product', 'Brand', 'Product code', 'Sizes photographed', 'Currency', 'Price', 'Updated at'], ...products.map(p => [p.id, p.title, p.brand, p.code, p.sizes, 'UGX', data.prices[p.id]?.price ?? '', data.prices[p.id]?.updatedAt ?? ''])];
+      const productResponse = await fetch('/.netlify/functions/products', { cache: 'no-store' });
+      if (!productResponse.ok) throw new Error('Cannot export current product details. Please retry.');
+      const currentProducts = (await productResponse.json()).products;
+      const rows = [['Product ID', 'Product', 'Category', 'Brand', 'Product code', 'Colour / label', 'Sizes', 'Material', 'Description', 'Notes', 'Currency', 'Price', 'Price updated at', 'Details updated at'], ...currentProducts.map(p => [p.id, p.title, p.category, p.brand, p.code, p.colorCode, p.sizes, p.material, p.design, p.notes, 'UGX', data.prices[p.id]?.price ?? '', data.prices[p.id]?.updatedAt ?? '', p.detailsUpdatedAt ?? ''])];
       const blob = new Blob(['\uFEFF' + rows.map(row => row.map(csvCell).join(',')).join('\r\n')], { type: 'text/csv;charset=utf-8' });
       const url = URL.createObjectURL(blob); const link = document.createElement('a');
       link.href = url; link.download = `THE-GENTS-prices-${new Date().toISOString().slice(0, 10)}.csv`;
@@ -127,7 +131,7 @@
     finally { exportButton.disabled = !state.loaded; }
   });
   refreshButton.addEventListener('click', () => refresh());
-  fetch('catalog.json').then(response => { if (!response.ok) throw new Error('Cannot load the product list.'); return response.json(); }).then(data => {
+  (window.gentsCatalog || fetch('catalog.json').then(response => { if (!response.ok) throw new Error('Cannot load the product list.'); return response.json(); })).then(data => {
     products = data.products;
     products.forEach(mount); updateCount(); refresh();
     setInterval(() => { if (document.visibilityState === 'visible') refresh(true); }, 30000);

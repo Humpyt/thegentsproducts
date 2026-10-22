@@ -58,17 +58,21 @@ export function createJournalStore(readRows, appendRow) {
   };
 }
 
-export function createSheetsStore({ spreadsheetId = process.env.GOOGLE_SHEET_ID, credentials = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_JSON || '{}'), fetcher = fetch } = {}) {
+export function createSheetsApi({ spreadsheetId = process.env.GOOGLE_SHEET_ID, credentials = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_JSON || '{}'), fetcher = fetch } = {}) {
   if (!spreadsheetId || !credentials.client_email || !credentials.private_key) throw new Error('Google Sheets configuration missing');
   const base = `https://sheets.googleapis.com/v4/spreadsheets/${encodeURIComponent(spreadsheetId)}/values/`;
-  async function api(suffix, options = {}) {
+  return async function api(suffix, options = {}) {
     const token = await serviceToken(credentials, fetcher);
     const response = await fetcher(base + suffix, { ...options, headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' }, signal: AbortSignal.timeout(12000) });
     if (!response.ok) throw new Error(`Google Sheets request failed (${response.status})`);
     return response.json();
-  }
+  };
+}
+
+export function createSheetsStore(options = {}) {
+  const api = createSheetsApi(options);
   return createJournalStore(
     async () => (await api(encodeURIComponent('Price entries!A2:F') + '?valueRenderOption=UNFORMATTED_VALUE')).values || [],
-    row => api(encodeURIComponent('Price entries!A:G') + ':append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS', { method: 'POST', body: JSON.stringify({ values: [row] }) })
+    row => api(encodeURIComponent('Price entries!A:G') + ':append?valueInputOption=USER_ENTERED&insertDataOption=OVERWRITE', { method: 'POST', body: JSON.stringify({ values: [row] }) })
   );
 }

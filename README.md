@@ -4,6 +4,8 @@
 
 Each card has a price field and **Save price** button. A blank saved field clears that product's price; zero is a valid price. Saved prices are visible to everyone with the site link. **Export saved prices (CSV)** downloads all 33 product IDs and their latest saved prices. Unsaved drafts are kept in the browser when storage is available.
 
+**Edit product details** opens a form for the name, category, brand, product code, colour label, sizes, material, description and notes. **Save details** shares the edit with all viewers and stores it in Google Sheets. **Discard draft** restores the latest loaded details. Product IDs and image files stay fixed. Drafts survive a reload, and stale edits show a conflict before replacing another viewer's work. Search, category counts, card text and CSV exports use the current saved details. The Excel download contains the original photographed label readings.
+
 ## Storage
 
 The Netlify Function at `/.netlify/functions/prices` reads and writes the Google Sheet configured by `GOOGLE_SHEET_ID`. The `Product prices` tab shows all 33 products and their latest prices; `Price entries` keeps the submission history. `CLEARED` records an intentional blank price. Save is confirmed only after the entry can be read back from Google Sheets. Prices survive redeployments.
@@ -13,6 +15,8 @@ A dedicated service account has editor access to this sheet and no project-wide 
 Live catalog: https://thegentsproducts.netlify.app
 
 Price sheet (owner access): https://docs.google.com/spreadsheets/d/1p5lEqS_LJg9YHGfttTYtstbPuub_Q7WNd9_ig6SpfXg/edit
+
+The `/.netlify/functions/products` endpoint uses the same sheet and credentials. `Product details` shows the latest product metadata, and `Detail entries` records revisions. The existing `Product prices` tab follows the current names and brands. Detail and price revisions are independent, so editing a description cannot replace a price. Submitted text is stored as literal text in Sheets and rendered with `textContent` in the website.
 
 Each journal entry includes its previous revision. In append order, only the first child of each revision is accepted. Stale edits receive a conflict response, including when viewers submit simultaneously. The overview formulas mirror this rule. Keep the journal in its original order and do not delete or edit journal rows; submit corrections using the website. The viewer interface is intentionally editable by visitors, as requested; it is not an authenticated store administration panel.
 
